@@ -15,3 +15,8 @@
   - B2: Đánh dấu class vừa tạo bằng annotation @Nested
   - B3: Đưa các test case tương ứng vào class này
   => Chú ý khi tạo như vậy, mỗi class đều có thể sử dụng @BeforeEach @AfterEach nếu muốn.
+### Sự khác nhau giữa Junit 5 và Junit 4
+  - 4 Các method test phải public, 5 ko cần
+  - 4 Before, After, BeforeClass, AfterClass, Ignore=> 5 BeforeEach, AfterEach, BeforeAll, AfterAll, Disable
+  - 5 thay đổi cách test Exception, Timeout 
+  - new in 5: @Nested @RepeatedTest
